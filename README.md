@@ -1,6 +1,6 @@
 # ava-es
 
-ava-es for Deno
+ava-es, a test runner for Deno
 
 ## Usage
 
@@ -11,3 +11,16 @@ test("plus", t => {
   t.is(1 + 1, 2);
 })
 ```
+
+```bash
+deno test
+```
+
+## Supported function
+
+- is
+- true
+
+## Original
+
+- [ava](https://github.com/avajs/ava)
