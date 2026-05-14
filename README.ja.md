@@ -1,10 +1,8 @@
 # ava-es
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+ava-esはDeno用のテストランナーです。
 
-ava-es is a test runner for Deno.
-
-## Usage
+## 使い方
 
 ```js
 import { test } from "https://code4fukui.github.io/ava-es/ava.js";
@@ -18,15 +16,15 @@ test("plus", t => {
 deno test
 ```
 
-## Supported functions
+## 対応関数
 
 - `is`
 - `true`
 
-## Original
+## オリジナル
 
 - [ava](https://github.com/avajs/ava)
 
-## License
+## ライセンス
 
-MIT License — see [LICENSE](LICENSE).
+MIT License — 詳細は [LICENSE](LICENSE) を参照してください。
